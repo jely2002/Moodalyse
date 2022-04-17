@@ -18,7 +18,6 @@ class _LoginState extends State<Login> {
     var password = _passwordController.value.text;
     var credentials = await FirebaseAuth.instance
         .signInWithEmailAndPassword(email: email, password: password);
-    print(credentials.user?.email);
     if (Navigator.of(context).canPop()) {
       Navigator.of(context).pop();
     } else {

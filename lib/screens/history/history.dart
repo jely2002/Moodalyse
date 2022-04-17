@@ -40,12 +40,12 @@ class _HistoryState extends State<History> {
       _week = weekStart;
       _moodStream.cancel();
       _history.clear();
+      _selectedMoods.clear();
       _moodStream = _watchHistory(user.uid);
     });
   }
 
   StreamSubscription<QuerySnapshot<Object>> _watchHistory(String uid) {
-    print(DefaultMaterialLocalizations().formatMediumDate(_week));
     return FirebaseFirestore.instance
         .collection(uid)
         .where('timestamp',

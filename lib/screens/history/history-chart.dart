@@ -65,10 +65,6 @@ class _HistoryChartState extends State<HistoryChart> {
           .where((element) => element.timestamp.toDate().weekday == day);
       double value = Mood.getAverageIndex(dailyMoods.map((e) => e.mood));
       int x = day - 1;
-      if (dailyMoods.isEmpty) {
-        print(day);
-        widget.history.forEach((element) { print("WEEKDAY " + element.timestamp.toDate().weekday.toString() ); });
-      }
 
       if (value < -2) value = 0;
       bool isTop = value > 0;
