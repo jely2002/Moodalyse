@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "674820347185",
+    "project_id": "moodalyse",
+    "storage_bucket": "moodalyse.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674820347185:android:64623cfab22805385a4c10",
+        "android_client_info": {
+          "package_name": "com.jelleglebbeek.moodalyse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "674820347185-k9c3q4fs37dehnqtdpm964cgmlajm5om.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6WAfWCjymUU2r8jvSJ_eKjIDv6c-pQmw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "674820347185-k9c3q4fs37dehnqtdpm964cgmlajm5om.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
