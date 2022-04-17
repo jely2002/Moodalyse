@@ -7,7 +7,7 @@ void main() {
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();
 
   group('login', () {
-    testWidgets('tap on the floating action button, verify counter',
+    testWidgets('login with test account',
             (WidgetTester tester) async {
           app.main();
           await tester.pumpAndSettle();
